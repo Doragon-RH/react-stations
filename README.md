@@ -20,7 +20,7 @@ React.js Railwayについては、[HTML/CSS/JavaScript Railway](https://github.c
 
 次の手順で取り組み始めてください。
 
-####  `react-stations`リポジトリのFork
+#### `react-stations`リポジトリのFork
 
 画面右上にあるForkより [React.js Railway](https://github.com/TechBowl-japan/react-stations)のリポジトリを自分のアカウントにForkしてください。
 
@@ -28,11 +28,10 @@ React.js Railwayについては、[HTML/CSS/JavaScript Railway](https://github.c
 
 作成したリポジトリを作業するディレクトリにクローンしましょう。
 
-* Macなら Terminal.app(iTerm2などでも良い)
-* Windowsなら PowerShell(GitBashなどのインストールしたアプリでもう良いです。アプリによってはコマンドが異なることがあります)
+- Macなら Terminal.app(iTerm2などでも良い)
+- Windowsなら PowerShell(GitBashなどのインストールしたアプリでもう良いです。アプリによってはコマンドが異なることがあります)
 
 で作業するディレクトリを開き、次のコマンドでForkしたReact.js　Railwayのリポジトリをローカルにクローンしてください。
-
 
 ```powershell
 git clone https://github.com/{GitHubのユーザー名}/react-stations.git
@@ -64,7 +63,6 @@ GitHubでサインアップしており、パスワードがない方がいま�
 TechTrainの画面からチャレンジを始めることもお忘れなく！
 React.js Railway に取り組み始めてください。
 
-
 ## トラブルシューティング
 
 ### commitしたのにチェックが実行されていないようなのですが？
@@ -76,8 +74,8 @@ React.js Railway に取り組み始めてください。
 
 特に２については
 
-* SourceTreeやGitHubAppでクローンした
-* httpsでクローンした
+- SourceTreeやGitHubAppでクローンした
+- httpsでクローンした
 
 際によく起こる現象であることを報告されています。
 もし上記のようなことが起こった場合には、Terminalなどの画面でSSHによるクローンを試していただき、その上で `yarn install` を実行していただくことで解決することが多いです。もし解決しなかった場合には、運営までお問い合わせいただくか、RailwayのSlackワークスペースにてご質問ください。
@@ -137,3 +135,6 @@ https://techtrain.dev/resetpassword
 ログインしていれば、次のURLから確認できます。
 
 https://techtrain.dev/mypage/profile
+
+API呼び出しURL
+https://azukipan.com/posts/javascript-api-fetch/
