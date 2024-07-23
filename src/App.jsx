@@ -1,15 +1,12 @@
 // DO NOT DELETE
 
 import './App.css'
-import { useState } from 'react'
+import { Header } from './Header'
+import { Description } from './Description'
 /**
  * @type {() => JSX.Element}
  */
 export const App = () => {
-  var [DogUrl, setDogUrl] = useState(
-    'https://images.dog.ceo/breeds/mountain-bernese/n02107683_6596.jpg',
-  )
-
   // // XMLHttpRequestオブジェクトの作成
   // var request = new XMLHttpRequest()
 
@@ -26,18 +23,10 @@ export const App = () => {
   // // リクエストをURLに送信
   // request.send()
 
-  const getData = function () {
-    fetch('https://dog.ceo/api/breeds/image/random')
-      .then(res => res.json())
-      .then(apiData => setDogUrl(apiData.message))
-      .catch(e => console.error(e.message))
-  }
   return (
     <div>
-      <header>犬アプリ</header>
-      <h1>犬の画像</h1>
-      <img src={DogUrl} alt="表示できません" />
-      <button onClick={() => getData()}>更新</button>
+      <Header />
+      <Description />
     </div>
   )
 }
