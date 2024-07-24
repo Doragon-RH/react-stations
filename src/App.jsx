@@ -3,11 +3,12 @@
 import './App.css'
 import { Header } from './Header'
 import { Description } from './Description'
+import { DogListContainer } from './DogListContainer'
 /**
  * @type {() => JSX.Element}
  */
 export const App = () => {
-  // // XMLHttpRequestオブジェクトの作成
+  // // XMLHttpRequestオブジェクトの作成(制作過程で出てきたもの。関係なし)
   // var request = new XMLHttpRequest()
 
   // // URLを開く
@@ -27,6 +28,7 @@ export const App = () => {
     <div>
       <Header />
       <Description />
+      <DogListContainer />
     </div>
   )
 }
